@@ -9,12 +9,10 @@
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
-    />
+      crossorigin="anonymous"/>
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet"/>
     <link rel="stylesheet" href="./assets/style.css">
     <title>Work Day Scheduler</title>
   </head>
@@ -27,55 +25,55 @@
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
-      <div class="hour1 input-group mb-0 time-block time-block row">
+      <div time="9" id="hour9" class="hour9 input-group mb-0 time-block time-block row">
         <div class="input-group-prepend hour"><span class="input-group-text hour">9 AM</span></div>
         <input type="text" class="task hour1" placeholder="">
-        <div class="input-group-append"><button class="btn-outline-secondary saveBtn"><i class="fas fa-save save-btn1"></i></button></div>
+        <button class="btn-outline-secondary saveBtn"><i class="fas fa-save save-btn1"></i></button>
       </div>
-      <div class="hour2 input-group mb-0 time-block time-block row">
+      <div time="10" id="hour10" class="hour10 input-group mb-0 time-block time-block row">
         <div class="input-group-prepend hour"><span class="input-group-text hour">10 AM</span></div>
         <input type="text" class="task hour2" placeholder="">
-        <div class="input-group-append"><button class="btn-outline-secondary saveBtn"><i class="fas fa-save save-btn2"></i></button></div>
+        <button class="btn-outline-secondary saveBtn"><i class="fas fa-save save-btn2"></i></button>
       </div>
-      <div class="hour3 input-group mb-0 time-block time-block row">
+      <div time="11" id="hour11" class="hour11 input-group mb-0 time-block time-block row">
         <div class="input-group-prepend hour"><span class="input-group-text hour">11 AM</span></div>
         <input type="text" class="task hour3" placeholder="">
-        <div class="input-group-append"><button class="btn-outline-secondary saveBtn"><i class="fas fa-save save-btn3"></i></button></div>
+        <button class="btn-outline-secondary saveBtn"><i class="fas fa-save save-btn3"></i></button>
       </div>
-      <div class="hour4 input-group mb-0 time-block time-block row">
+      <div time="12" id="hour12" class="hour12 input-group mb-0 time-block time-block row">
         <div class="input-group-prepend hour"><span class="input-group-text hour">12 AM</span></div>
         <input type="text" class="task hour4" placeholder="">
-        <div class="input-group-append"><button class="btn-outline-secondary saveBtn"><i class="fas fa-save save-btn4"></i></button></div>
+        <button class="btn-outline-secondary saveBtn"><i class="fas fa-save save-btn4"></i></button>
       </div>
-      <div class="hour5 input-group mb-0 time-block time-block row">
+      <div time="13" id="hour13" class="hour13 input-group mb-0 time-block time-block row">
         <div class="input-group-prepend hour"><span class="input-group-text hour">1 PM</span></div>
         <input type="text" class="task hour5" placeholder="">
-        <div class="input-group-append"><button class="btn-outline-secondary saveBtn"><i class="fas fa-save save-btn5"></i></button></div>
+        <button class="btn-outline-secondary saveBtn"><i class="fas fa-save save-btn5"></i></button>
       </div>
-      <div class="hour6 input-group mb-0 time-block time-block row">
+      <div time="14" id="hour14" class="hour14 input-group mb-0 time-block time-block row">
         <div class="input-group-prepend hour"><span class="input-group-text hour">2 PM</span></div>
         <input type="text" class="task hour6" placeholder="">
-        <div class="input-group-append"><button class="btn-outline-secondary saveBtn"><i class="fas fa-save save-btn6"></i></button></div>
+        <button class="btn-outline-secondary saveBtn"><i class="fas fa-save save-btn6"></i></button>
       </div>
-      <div class="hour7 input-group mb-0 time-block time-block row">
+      <div time="15" id="hour15" class="hour15 input-group mb-0 time-block time-block row">
         <div class="input-group-prepend hour"><span class="input-group-text hour">3 PM</span></div>
         <input type="text" class="task hour7" placeholder="">
-        <div class="input-group-append"><button class="btn-outline-secondary saveBtn"><i class="fas fa-save save-btn7"></i></button></div>
+        <button class="btn-outline-secondary saveBtn"><i class="fas fa-save save-btn7"></i></button>
       </div>
-      <div class="hour8 input-group mb-0 time-block time-block row">
+      <div time="16" id="hour16" class="hour16 input-group mb-0 time-block time-block row">
         <div class="input-group-prepend hour"><span class="input-group-text hour">4 PM</span></div>
         <input type="text" class="task hour8" placeholder="">
-        <div class="input-group-append"><button class="btn-outline-secondary saveBtn"><i class="fas fa-save save-btn8"></i></button></div>
+        <button class="btn-outline-secondary saveBtn"><i class="fas fa-save save-btn8"></i></button>
       </div>
-      <div class="hour9 input-group mb-0 time-block time-block row">
+      <div time="17" id="hour17" class="hour17 input-group mb-0 time-block time-block row">
         <div class="input-group-prepend hour"><span class="input-group-text hour">5 PM</span></div>
         <input type="text" class="task hour9" placeholder="">
-        <div class="input-group-append"><button class="btn-outline-secondary saveBtn"><i class="fas fa-save save-btn9"></i></button></div>
+        <button class="btn-outline-secondary saveBtn"><i class="fas fa-save save-btn9"></i></button>
       </div>
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <script src="./assets/script.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
