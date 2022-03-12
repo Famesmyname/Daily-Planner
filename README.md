@@ -6,7 +6,7 @@ This app is a daily planner that allows the user to add tasks or activities to a
 The app is a good way to keep track of tasks for the current day and will show the user visual what tasks are upcoming and what has passed.
 
 Access the app at:
-https://github.com/Famesmyname/Work-Daily-Planner
+https://famesmyname.github.io/Work-Daily-Planner/
 
 ## Intructions
 
@@ -23,4 +23,6 @@ Remember to save each hourly task so that even when the app/page is reopened, th
 1.00    -Release
 1.01    -Fixed layout of hours to line up.
 
+## Github
 
+https://github.com/Famesmyname/Work-Daily-Planner
